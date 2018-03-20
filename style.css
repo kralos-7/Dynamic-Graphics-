@@ -1,0 +1,95 @@
+html,body {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-left:20px;
+    font-weight: 200;
+    font-size: 14px;
+}
+
+
+@media (min-width:768px) {
+  html,body {
+    font-size: 16px;
+  }
+    .year.label {
+    font: 500 196px "Helvetica Neue";
+    fill: #ddd;
+  }
+  .country.label  {
+    font: 500 96px "Helvetica Neue";
+    fill: #ddd;
+  }
+
+}
+@media only screen and (max-width: 730px) {
+	html,body {
+		font-size: 16px;
+	}
+    .year.label {
+		font: 500 98px "Helvetica Neue";
+		fill: #ddd;
+	}
+	.country.label  {
+		font: 500 48px "Helvetica Neue";
+		fill: #ddd;
+	}
+}
+     
+text {
+	cursor: default;
+}
+  
+h1 {
+    font-weight:400;
+}
+
+#chart {
+
+}
+
+text {
+	font-size: 10px;
+}
+  
+.dot {
+	stroke: #000;
+}
+
+.axis path, .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+  
+.label {
+	fill: #777;
+}
+
+.year.label.active {
+	fill: #aaa;
+}
+
+circle.pointTrajectory {
+	pointer-events: none;
+    stroke: lightgray;
+    fill: black;
+    opacity: 0;
+}
+
+path.lineTrajectory {
+    stroke-width: 2;
+    stroke-opacity: .5;
+    stroke: black;
+    fill: none;
+    pointer-events: none;
+}
+
+.selected {
+	stroke-width: 4;
+}
+ 
